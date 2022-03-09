@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href='/static/style.css' />
+    </head>
+    <body>
+        <form method="post" action="">
+            <button class="Button1" type="submit" name="action1" value="fw">Forward</button>
+            <button class="Button4" type="submit" name="action2" value="bw">Backward</button>
+            <button class="Button3" type="submit" name="action3" value="tr">Turn Right</button>
+            <button class="Button2" type="submit" name="action4" value="tf">Turn Left</button>
+        
+            <label for="cb" class="form__label">Command:</label>
+            <input type="text" class="form__field"
+                name="commandbox" id='cb' value="{{request.form.commandbox }}">
+            <button class="confirm" type="submit" name="conf" value="conf">Confirm</button>
+        </form>
+    </body>
+</html>
+
+

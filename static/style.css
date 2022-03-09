@@ -1,0 +1,164 @@
+.Button1 {
+  position:absolute;
+  top:10%;
+  right:46%;
+  background-color:#599bb3;
+  border-radius:28px;
+  border:2px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:19px;
+  padding:4px 22px;
+  text-decoration:none;
+  text-shadow:-1px 0px 24px #3d768a;
+}
+
+.Button1:active {
+  top:10%;
+  right:46%;
+  position:absolute;
+}
+
+.Button1:hover {
+  background-color:#408c99;
+}
+
+.Button2 {
+  position:absolute;
+  top:16%;
+  right:50%;
+  background-color:#599bb3;
+  border-radius:28px;
+  border:2px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:19px;
+  padding:4px 22px;
+  text-decoration:none;
+  text-shadow:-1px 0px 24px #3d768a;
+}
+
+.Button2:active {
+  top:16%;
+  right:50%;
+  position:absolute;
+}
+
+.Button2:hover {
+  background-color:#408c99;
+}
+
+.Button3 {
+  position:absolute;
+  top:16%;
+  right:42%;
+  background-color:#599bb3;
+  border-radius:28px;
+  border:2px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:19px;
+  padding:4px 22px;
+  text-decoration:none;
+  text-shadow:-1px 0px 24px #3d768a;
+}
+
+.Button3:active {
+  top:16%;
+  right:42%;
+  position:absolute;
+}
+
+.Button3:hover {
+  background-color:#408c99;
+}
+
+.Button4 {
+  position:absolute;
+  top:22%;
+  right:46%;
+  background-color:#599bb3;
+  border-radius:28px;
+  border:2px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:19px;
+  padding:4px 22px;
+  text-decoration:none;
+  text-shadow:-1px 0px 24px #3d768a;
+}
+
+.Button4:active {
+  top:22%;
+  right:46%;
+  position:absolute;
+}
+
+.Button4:hover {
+  background-color:#408c99;
+}
+
+.confirm {
+  background-color:#599bb3;
+  border-radius:28px;
+  border:2px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:19px;
+  padding:4px 22px;
+  text-decoration:none;
+  text-shadow:-1px 0px 24px #3d768a;
+  position:absolute;
+}
+
+.confirm:hover {
+  background-color:#408c99;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px ;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  font-size: 25px;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+body {
+  background: #38686A;
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color: #222222;
+}
